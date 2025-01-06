@@ -47,6 +47,7 @@ src/
   |   ├── NewsFeed.css
   |   ├── TopCryptos.css
   |   |── NewsFeed.css
+  |   |── Footer.jsx
   ├── services/
   │   ├── cryptoApi.js
   ├── styles/
