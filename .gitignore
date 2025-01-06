@@ -33,3 +33,5 @@ vit.config.js
 package-lock.json
 # Local Netlify folder
 .netlify
+
+.codegpt
