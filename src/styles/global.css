@@ -201,6 +201,15 @@ button {
   .container {
     padding: 10px;
   }
+  .news-item {
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.4);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    color: #00d4ff;
+  }
   .news-feed {
     background: rgba(255, 255, 255, 0.1);
     backdrop-filter: blur(10px);
@@ -241,6 +250,7 @@ button {
   .crypto-card h3 {
     font-size: 1.3rem;
   }
+  
   .news-feed {
     background: rgba(255, 255, 255, 0.1);
     backdrop-filter: blur(10px);
