@@ -29,7 +29,7 @@ export const fetchCryptoNews = async () => {
         },
       });
   
-      // Map and limit the response to 10 articles
+      // Map and limit the response to 5 articles
       return data.Data.slice(0, 5).map((article) => ({
         title: article.title,
         url: article.url,
