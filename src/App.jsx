@@ -3,6 +3,7 @@ import BitcoinGraph from "./components/BitcoinGraph";
 import TopCryptos from "./components/TopCryptos";
 import NewsFeed from "./components/NewsFeed";
 import "./styles/global.css";
+import Footer from "./components/footer";
 
 const App = () => {
   return (
@@ -14,6 +15,7 @@ const App = () => {
         <BitcoinGraph />
         <br />
         <TopCryptos />
+        <Footer />
     </div>
     </div>
   );

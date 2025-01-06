@@ -168,6 +168,18 @@ button {
   margin: 5px 0;
 }
 
+.footer {
+  color: #00d4ff;
+  margin-bottom: 0px;
+}
+
+.footer a {
+  color: #00ff88;
+  text-decoration: none;
+  font-weight: bold;
+  transition: all 0.3s ease;
+}
+
 /* Responsiveness */
 @media (max-width: 768px) {
   .app {
