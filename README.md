@@ -2,7 +2,7 @@
 
 Bitcoin and Dashboard! 🚀 This web application provides real-time insights into Bitcoin and other top cryptocurrencies, along with the latest news from the crypto world. Built with React and Vite.
 
-🔗 Live Site Desktop only: [BitcoinCryptoDashboard](https://bitcoincryptodashboard.netlify.app/)
+🔗 Live Site: [BitcoinCryptoDashboard](https://bitcoincryptodashboard.netlify.app/)
 
 🌟 Features
 

@@ -131,34 +131,9 @@ button {
   border-radius: 10px;
 }
 
-/* News Feed */
-.news-feed {
-  display: flex;
-  flex-direction: column;
-  gap: 10px;
-  padding: 20px;
-  border-radius: 15px;
-  background: rgba(255, 255, 255, 0.1);
-  backdrop-filter: blur(10px);
-  -webkit-backdrop-filter: blur(10px);
-  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.4);
-  border: 1px solid rgba(255, 255, 255, 0.2);
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
-  color: #00d4ff;
-}
-
 .news-feed h2 {
   font-size: 1.8rem;
   margin-bottom: 15px;
-}
-
-.news-item {
-  padding: 10px;
-  border-left: 3px solid #00d4ff !important;
-  background: rgba(255, 255, 255, 0.1) !important;
-  border-radius: 10px;
-  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.3);
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 .news-item a {
@@ -202,10 +177,12 @@ button {
     padding: 10px;
   }
   .news-item {
-    background: rgba(255, 255, 255, 0.1) !important;
+    padding: 5px;
+    background-color: rgb(105,105,105);
   }
   .news-feed {
-    background: rgba(255, 255, 255, 0.1) !important;
+    background: rgb(105,105,105) !important;
+
   }
   h1,
   h2 {
@@ -240,7 +217,7 @@ button {
   }
   
   .news-feed {
-    background: rgba(255, 255, 255, 0.1) !important;
+    background: rgb(105,105,105) !important;
   }
   button {
     font-size: 14px;
